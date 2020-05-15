@@ -1,0 +1,1272 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: 'Oxygen', sans-serif;
+    background: url('../images/appBackgroundWC.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+}
+a {
+    text-decoration: none;
+}
+#header {
+    width:100%;
+    height:10vh;
+    background: #FF9683;
+}
+.wrapper {
+    width:70%;
+    height:10vh;
+    margin:0px auto;
+}
+#logo {
+    float:left;
+    width:25%;
+    height:7vh;
+    float:left;
+}
+#logo img {
+    width:100%;
+    height:100%;
+}
+#login {
+    float:right;
+    width:50%;
+    height: 10vh;
+}
+#formLogin {
+    float:right;
+    width:80%;
+    height:10vh;
+}
+#tbUsrLogin,#tbPassLogin {
+    padding: 1%;
+    width:30%;
+    padding-left: 2%;
+    border:1px solid white;
+    border-radius: 13px;
+    margin-top:3%;
+    margin-left:2%;
+}
+#feedbackLogin {
+    position:absolute;
+    top:2.2%;
+    left:48%;
+    color:white;
+    display:none;
+}
+#btnLogin{
+    padding:0.5% 5%;
+    margin-left:2%;
+    background: none;
+    border:2px solid white;
+    border-radius:14px;
+    color:white;
+
+}
+.mainView{
+    width:100%;
+    height:85vh;
+    background: url('../images/appBackground.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 30% 60%;
+
+}
+.backgrd {
+    background: url('../images/appBackgroundWC.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 30% 60%;
+}
+.homeView {
+    text-align: center;
+    padding-top:5%;
+}
+.homeView p{
+    margin-top:1%;
+    margin-bottom: 16%;
+}
+#btnRegHome {
+    padding:0.5% 3%;
+    margin-left:2%;
+    background: none;
+    border:2px solid white;
+    border-radius:20px;
+    color:white;
+}
+#footer {
+    width: 100%;
+    height:3vh;
+    text-align: center;
+    color:#FF775F;
+    font-style: bold;
+    padding-top:0.2%;
+    padding-bottom: 0.2%;
+    background-color: white;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}#footer span{
+    color:black;
+}
+#registerView {
+    padding-top:0;
+}
+#registerForm input[type=text],#registerForm input[type=password],#ddlCity,#ddlUniversity,#tbFname {
+    width:50%;
+    padding: 0.7% 1%;
+    border:2px solid white;
+    border-radius:20px;
+    background: none;
+    display: block;
+    margin:1% 0% 0% 30%;
+    color:white;
+ 
+}
+#registerView ::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  #btnRegister {
+      margin-top:1%;
+      margin-right:25%;
+      padding: 0.5% 3%;
+      border:1px solid #FF9683;
+      border-radius:15px;
+  }
+.others{
+    color:black;
+}
+.nevidljiv {
+    display: none;
+}
+#feedback {
+    color:white;
+    width:70%;
+    height:3vh;
+    float:right;
+}
+#menu {
+    width:13%;
+    height:15vh;
+    position: absolute;
+    top:10%;
+    left:10%;
+    background: white;
+    border:1px solid white;
+    border-radius: 20px;
+    padding-top:1%;
+}
+#dugmeLgo {
+    padding: 1% 4%;
+    border:1px solid #FF9683;
+    border-radius:15px;
+    position: absolute;
+    bottom: 5%;
+    right:5%;
+    background: #FF9683;
+    color:white;
+}
+#userHome,#aboutUs {
+    width:45%;
+    height:63.3vh;
+    position: absolute;
+    top:10%;
+    left:26%;
+    background: white;
+    border:1px solid white;
+    border-radius: 20px;
+    padding-top:0.4%;
+}
+#aboutUs h2 {
+    margin-top:2%;
+}
+#userProfile {
+    width:25%;
+    height:50vh;
+    position: absolute;
+    top:10%;
+    right:2%;
+    background: white;
+    border:1px solid white;
+    border-radius: 20px;
+
+}
+#menu ul li {
+    list-style-type: none;
+    margin-bottom: 5%;
+}
+#menu ul li a {
+    text-decoration: none;
+    color: #ba7670;
+}
+#menu i {
+    margin-right:5%;
+    margin-left:5%;
+    color:grey;
+}
+#findTransport {
+    width:45%;
+    height:15vh;
+    position: absolute;
+    bottom:10%;
+    left:26%;
+    background: white;
+    border:1px solid white;
+    border-radius: 20px;
+}
+#userImage{
+    width:52%;
+    height:25.5vh;
+    border:1px solid white;
+    border-radius:120px;
+    margin:0px auto;
+    padding-bottom: 2%;
+
+}
+#userImage img{
+    width:100%;
+    height:100%;
+    border:1px solid white;
+    border-radius:120px;
+}
+#addPhoto{
+    
+    width:100%;
+    height:5vh;
+    margin:0px auto;
+    
+}
+#userPhoto{
+    width:55%;
+    float:right;
+    margin-top:3%;
+}
+.addPht {
+    width:40%;
+    float:left;
+    padding-left: 1%;
+}
+#addPhoto i {
+    margin:5%;
+    font-size: 1.5em;
+    color:lightslategray;
+}
+#userName {
+    width:30%;
+    height:5vh;
+    background: white;
+    position: absolute;
+    top:-7%;
+    left:3%;
+    border:1px solid white;
+    border-radius:15px;
+    text-align: center;
+    padding-top: 1%;
+}
+#userName i {
+    color:green;
+    font-size:0.8em;
+}
+.userLeft,.userRight{
+    width:50%;
+    height:17vh;;
+    float:left;
+}
+.label {
+    padding: 5% 0% 5% 3%;
+    color:#FF9683;
+   
+}
+#userAbout{
+    padding-left:2%;
+}
+#userAbout span {
+    color:lightslategray;
+}
+#btnSavePh{
+    padding: 0.5% 3%;
+    background: none;
+    border:2.5px solid #FF9683;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 5%;
+    right:25%;
+}
+#btnEdit {
+    padding: 0.5% 3%;
+    background: none;
+    border:2.5px solid #FF9683;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 5%;
+    right:5%;
+   
+}
+#editProfile{
+    position: absolute;
+    bottom: 2%;
+    left:4%;
+    
+
+}
+#editProfile a {
+    color:#BA7670;
+    text-decoration: underline;
+}
+#editProfile i {
+    color:grey;
+}
+#editProfileDiv {
+    width:25%;
+    height:28vh;
+    position: absolute;
+    bottom: 10%;
+    right: 2%;
+    background: white;
+    border:1px solid white;
+    border-radius:15px;
+ 
+}
+#editLevo {
+    width:45%;
+    height:28vh;
+    float:left;
+    padding: 2%;
+}
+#editDesno {
+    width:50%;
+    height:28vh;
+    float:left;
+    padding-top:2%;
+}
+#registerForm2 input[type=text],#registerForm2 input[type=password],#ddlCityEdit,#ddlUniversityEdit {
+    width:80%;
+    padding: 1.5% 3%;
+    border:2px solid #BA7670;
+    border-radius: 15px;
+    display: block;
+    margin:0.5% 0% 0% 0%;
+    color:black;
+    line-height: 1em;
+ 
+}
+#ddlCityEdit,#ddlUniversityEdit {
+    color:black;
+}
+input:read-only {
+    background-color: rgb(189, 184, 184);
+
+  }
+  .nevidljivEdit {
+      display: none;
+  }
+  #transportInp {
+      margin-left:2%;
+  }
+  .userTransport {
+    padding: 2%;
+  }
+.userTransportInfo {
+    padding: 2%;
+
+}
+.userTransportInfo span{
+    color:#BA7670;
+    text-decoration: underline;
+
+}
+#datumTransport {
+  
+    padding-left:2%;
+    width:15%;
+    background: lightgray;
+    border: 1.5px solid grey;
+    border-radius:10px;
+}
+#datum2Transport{
+    width:25%;
+}
+#vremeTransport {
+ 
+    padding-left:2%;
+    width:15%;
+    background: lightgray;
+    border: 1.5px solid grey;
+    border-radius:10px;
+}
+#btnTransport {
+    padding: 0.5% 3%;
+    border:1.5px solid #FF9683;
+    border-radius:15px;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
+.post {
+    width:98%;
+    margin:0px auto;
+    height:20vh;
+    position: relative;
+    background: #BEBEBE;
+    border:1px solid white;
+    border-radius: 17px;
+    margin-bottom: 1%;
+}
+.img {
+    width:17%;
+    height:70%;
+    margin-left:1%;
+    margin-top:1%;
+ 
+    border:1px solid  #BEBEBE;
+    border-radius:150px;
+}
+.img img {
+    width:100%;
+    height:100%;
+ 
+    border:1px solid #BEBEBE;
+    border-radius:150px;
+}
+.time{
+    width:18%;
+    height:20%;
+ 
+    padding-left:6%;
+    padding-top:1%;
+    
+}
+.time i {
+    font-size:1.8em;
+    float:left;
+    margin-right:4%;
+}
+.time p {
+    width:10%;
+    height:20%;
+    float:left;
+    margin-top:3.5%;
+}
+.driver{
+    width:55%;
+    height:15%;
+   
+    position:absolute;
+    top:0;
+    left:20%;
+}
+.date {
+    text-align: right;
+    width:20%;
+    height:15%;
+    position: absolute;
+    top:2%;
+    right:2%;
+    
+}
+.descrpt {
+    padding-top:1%;
+    width:55%;
+    height:50%;
+    
+    position: absolute;
+    bottom: 20%;
+    left:20%;
+}
+.seatNumbers{
+    width:20%;
+    height:15%;
+    position: absolute;
+    top: 2%;
+    right:20%;
+   
+    
+}
+.seatNumbers i {
+    float:left;
+    font-size:1.2em;
+    margin-right:7%;
+}
+.seatNumbers p {
+   
+        width:60%;
+        height:20%;
+        float:left;
+      
+}
+.join {
+    width:15%;
+    height:15%;
+    position: absolute;
+    bottom: 2%;
+    right:2%;
+
+}
+
+#btnJoin{
+    width:100%;
+    height: 100%;
+    background: #FF9683;
+    color:white;
+    border:1px solid  #BEBEBE;
+    border-radius: 15px;
+}
+.unvisible {
+    width:50%;
+    position: absolute;
+    top: -9%;
+    right:28%;
+    text-align:center;
+    display:none;
+}
+#joinAdr {
+    width:100%;
+    padding: 1% 3%;
+    border:1px solid #BEBEBE;
+    border-radius:5px;
+}
+.goingFrom {
+    width:55%;
+    height:15%;
+    position: absolute;
+    bottom: 2%;
+    left:23%;
+    font-size:0.8em;
+}
+#goingFrom {
+    padding:0.4%;
+    border: 2px solid grey;
+    border-radius:10px;
+}
+#dodatno {
+    border: 2px solid grey;
+    border-radius:10px;
+}
+.goingFrom span {
+    margin-left:2%;
+    text-decoration: underline;
+}
+.brojSedista{
+    margin-left:5%;
+}
+#feedBackJoin {
+    position: absolute;
+    top:-5%;
+    left:10%;
+}
+#feedBackSearch {
+    width:100%;
+    position: absolute;
+    top:0%;
+    left:0%;
+}
+#offerTransport{
+    width:45%;
+    height:15vh;
+    position: absolute;
+    bottom:10%;
+    left:26%;
+    background: white;
+    border:1px solid white;
+    border-radius: 20px;
+
+}
+#offerTransport h3 {
+    width:100%;
+    padding-top:0.5%;
+padding-left:2%;
+font-size:0.9em;
+}
+#offerTransport p {
+    margin-top:1%;
+}
+#offerTransport span {
+ color:#FF9683;
+ text-decoration: underline;
+}
+#offerInp {
+    margin-top:2%;
+    width:70%;
+    
+}
+#datumTransportOffer,#vremeTransportOffer  {
+    padding-left:1%;
+    width:20%;
+    background: lightgray;
+    border: 1.5px solid grey;
+    border-radius:10px;
+}
+#btnOffer{
+    padding: 0.5% 3%;
+    border:1.5px solid #FF9683;
+    border-radius:15px;
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+}
+#seatNumbers {
+    width:60%;
+    position: absolute;
+    bottom:13%;
+    left:3%;
+}
+#numberOff {
+    width:8%;
+    padding-left: 1%;
+    border:1.5px solid #FF9683;
+    border-radius:15px;
+}
+#additionalInfo{
+    width:47%;
+    text-align:left;
+    position: absolute;
+    top: 25%;
+    right:3%;
+}
+#dodatno{
+    width:100%;
+}
+#feedBackOffer{
+    width:100%;
+    position:absolute;
+    bottom:5%;
+     left:26%;  
+}
+#pagination {
+    position: absolute;
+    top:30%;
+    left:24%;
+    font-size:1.5em;
+    color:black;
+}
+#pagination li a {
+    color:white;
+    text-decoration: underline;
+}
+#divLeft{
+    width: 43.5%;
+    height: 80%;
+    float:left;
+    padding: 2%;
+    margin-top:5%;
+    margin-left:2%;
+    border-right:1.5px solid grey;
+
+
+}
+#divRight{
+    width:43.5%;
+    height: 80%;
+
+    float:left;
+    padding: 2%;
+    margin-top:5%;
+    margin-right:2%;
+    position: relative;
+
+}
+#divRight h2 {
+    width:100%;
+    text-align: center;
+    margin-bottom:3%;
+    color:#BA7670;
+}
+#picAbout  {
+    width:60%;
+    height:50%;
+    border:1px solid white;
+    border-radius:150px;
+    margin:0px auto;
+}
+#picAbout img {
+    width:100%;
+    height:100%;
+    border:1px solid white;
+    border-radius:150px;
+    margin:0px auto;
+}
+.devDesc {
+    width:100%;
+    margin-top:5%;
+    padding-left:4%;
+}
+#picLogo{
+    width:70%;
+    height:30%;
+}
+#divLeft h2 {
+    margin-bottom:3%;
+    color:#BA7670;
+}
+.mission {
+    margin-top:2%;
+}
+#exportWord {
+    width:  50%;
+    position: absolute;
+    bottom: 1%;
+    right:1%;
+
+}
+#exportWord a {
+    color:black;
+    text-decoration:underline;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
+}
+#exportWord i {
+    font-size:1.3em;
+    margin-right:3%;
+}
+
+#exportExcell{
+    width:  20%;
+    position: absolute;
+    top:2%;
+    right:22%;
+    
+}
+#exportExcell a {
+    padding: 1% 3%;
+    color:white;
+    border:2px solid white;
+    border-radius:15px;
+    background: #FF775F;
+
+}
+#stat24 {
+    width:15%;
+    height:30vh;
+    position: absolute;
+    top:15%;
+    left:5%;
+    background: white;
+    border:1px solid white;
+    border-radius:20px;
+}
+.pages{
+    padding:1%;
+    padding-left:2%;
+    
+}
+#headingAdm {
+    width:70%;
+    height:5vh;
+    background: white;
+    border:1px solid white;
+    border-radius:15px;
+    margin-top:-10%;
+    text-align: center;
+    margin-left:14%;
+    
+}
+#statistics {
+    width:15%;
+    height:30vh;
+    position: absolute;
+    top:50%;
+    left:5%;
+    background: white;
+    border:1px solid white;
+    border-radius:20px;
+}
+#heading24 {
+    width:70%;
+    height:5vh;
+    background: white;
+    border:1px solid white;
+    border-radius:15px;
+    margin-top:-10%;
+    text-align: center;
+    margin-left:14%;
+}
+.pages24{
+    padding:1%;
+    padding-left:2%;
+    
+}
+#loggedIn {
+    width:15%;
+    height:40vh;
+    position: absolute;
+    top:15%;
+    right:4%;
+    background: white;
+    border:1px solid white;
+    border-radius:20px;
+}
+#loggedHeading {
+    width:70%;
+    height:5vh;
+    background: white;
+    border:1px solid white;
+    border-radius:15px;
+    margin-top:-10%;
+    text-align: center;
+    margin-left:14%;
+}
+#actBr{
+    width:100%;
+}
+.user{
+    padding-top:3%;
+    padding-left:2%;
+    float:left;
+    width:100%;
+}
+.user i {
+    font-size:0.8em;
+    color:green;
+    float:left;
+    margin-top:2%;
+    margin-right:2%;
+}
+#picAct {
+    width:8%;
+    height:8%;
+    float:left;
+    margin-right:4%;
+}
+#picAct img{
+    width:100%;
+    height:100%;
+    border:1px solid white;
+    border-radius: 15px;
+    
+}
+#allUsers{
+    width:55%;
+    height:65vh;
+    position: absolute;
+    top:10%;
+    right:21%;
+    background: white;
+    border:1px solid white;
+    border-radius:20px;
+}
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+        font-size: 0.5em;
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: 0.5em;
+      text-align: right;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  #paginationUsers {
+      position: absolute;
+      top:35%;
+      left:22.5%;
+
+  }
+  #paginationUsers li a {
+      color:white;
+  }
+  .delUsr{
+      color:red;
+  }
+  #updateUser {
+    width:20%;
+    height:30vh;
+    position: absolute;
+    bottom:10%;
+    right:.5%;
+    background: white;
+    border:1px solid white;
+    border-radius:20px;
+  }
+@media screen and (min-width:1635px) and (max-width:1920px) {
+    .goingFrom {
+        font-size:0.7em;
+    }
+    #addPhoto {
+        font-size:0.7em;
+    }
+    .label{
+        font-size:0.7em;
+    }
+    #statistics{
+        font-size:0.9rem;
+    }
+    #allUsers{
+        font-size:0.85rem;
+    }
+    #stat24 {
+        font-size:0.9rem;
+    }
+    #aboutUs {
+        font-size:0.9rem;
+    }
+    #aboutUs h2 {
+        margin-top:2%;
+        font-size:1rem;
+    }
+    #editProfileDiv{
+        padding:0;
+        font-size:0.7rem;
+    }
+
+}
+@media screen and (min-width:1441px) and (max-width:1635px) {
+    #addPhoto {
+        font-size:0.7em;
+    }
+    .label{
+        font-size:0.7em;
+    }
+    .driver{
+        font-size:0.6em;
+    }
+    .seatNumbers {
+        font-size:0.8em;
+    }
+    .goingFrom {
+        font-size:0.7em;
+    }
+    #offerTransport h3 {
+        font-size:0.6em;
+    }
+    #additionalInfo{
+        width:33%;
+        text-align:left;
+        position: absolute;
+        top: 25%;
+        right:3%;
+    }
+    .unvisible {
+        position: absolute;
+        top:-12%;
+        right:28%;
+    }
+    #statistics{
+        font-size:0.8rem;
+    }
+    #allUsers{
+        font-size:0.75rem;
+    }
+    #stat24 {
+        font-size:0.8rem;
+    }
+    #aboutUs {
+        font-size:0.8rem;
+    }
+    #aboutUs h2 {
+        margin-top:2%;
+        font-size:0.95rem;
+    }
+    #editProfileDiv{
+        padding:0;
+        font-size:0.7rem;
+        height:31vh;
+        bottom:8%;
+        
+    }
+}
+@media screen and (min-width:1260px) and (max-width:1440px) {
+    #userImage{
+        width:50%;
+        height:50%;
+    }
+    #addPhoto {
+        font-size:0.7em;
+    }
+    .label{
+        font-size:0.7em;
+    }
+    #btnSavePh {
+        margin-right:3%;
+    }
+    #menu ul li a {
+        font-size:0.7em;
+    }
+    .driver{
+        font-size:0.6em;
+    }
+    .seatNumbers {
+        font-size:0.6em;
+    }
+    .goingFrom {
+        font-size:0.6em;
+    }
+    .time {
+        font-size:0.7em;
+    }
+    .descrpt{
+        font-size:0.8em;
+    }
+    #feedbackLogin {
+        position:absolute;
+        top:2.2%;
+        left:38%;
+}
+#offerTransport h3 {
+    font-size:0.6em;
+}
+#additionalInfo{
+    width:27%;
+    text-align:left;
+    position: absolute;
+    top: 25%;
+    right:3%;
+    font-size:0.7em;
+}
+#seatNumbers {
+    width:60%;
+    position: absolute;
+    bottom: 1%;
+    left:3%;
+}
+.unvisible {
+    position: absolute;
+    top:-13%;
+    right:28%;
+}
+#statistics{
+    font-size:0.7rem;
+}
+#allUsers{
+    font-size:0.65rem;
+}
+#stat24 {
+    font-size:0.7rem;
+}
+#aboutUs {
+    font-size:0.7rem;
+}
+#aboutUs h2 {
+    margin-top:2%;
+    font-size:0.9rem;
+}
+#editProfileDiv{
+    padding:0;
+    font-size:0.7rem;
+    height:32vh;
+    bottom:7%;
+    
+}
+}
+@media screen and (min-width:1024px) and (max-width:1260px) {
+    #addPhoto {
+        font-size:0.6em;
+    }
+    .label{
+        font-size:0.6em;
+    }
+    #btnSavePh {
+        margin-right:6%;
+    }
+    .addPht {
+        font-size:0.9em;
+    }
+    #menu ul li a {
+        font-size:0.7em;
+    }
+    .driver{
+        font-size:0.6em;
+    }
+    .seatNumbers {
+        font-size:0.6em;
+    }
+    .goingFrom {
+        font-size:0.5em;
+    }
+    .time {
+        font-size:0.7em;
+    }
+    .descrpt{
+        font-size:0.8em;
+    }
+    #feedbackLogin {
+        position:absolute;
+        top:2.2%;
+        left:20%;
+}
+#offerTransport h3 {
+    font-size:0.6em;
+}
+#datumTransportOffer,#vremeTransportOffer  {
+    padding-left:1%;
+    width:20%;
+    background: lightgray;
+    border: 1.5px solid grey;
+    border-radius:10px;
+}
+#btnOffer{
+    padding: 0.5% 3%;
+    border:1.5px solid #FF9683;
+    border-radius:15px;
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+}
+#seatNumbers {
+    width:60%;
+    position: absolute;
+    bottom: 1%;
+    left:3%;
+}
+#numberOff {
+    width:8%;
+    padding-left: 1%;
+    border:1.5px solid #FF9683;
+    border-radius:15px;
+}
+#additionalInfo{
+    width:27%;
+    text-align:left;
+    position: absolute;
+    top: 25%;
+    right:3%;
+}
+.unvisible {
+    position: absolute;
+    top:-13%;
+    right:28%;
+}
+#statistics{
+    font-size:0.7rem;
+}
+#allUsers{
+    font-size:0.65rem;
+}
+#stat24 {
+    font-size:0.7rem;
+}
+#aboutUs {
+    font-size:0.6rem;
+}
+#aboutUs h2 {
+    margin-top:2%;
+    font-size:0.8rem;
+}
+#editProfileDiv{
+    padding:0;
+    font-size:0.6rem;
+    height:32vh;
+    bottom:7%;
+    
+}
+}
+@media screen and (min-width:300px) and (max-width:450px) {
+    .wrapper {
+        width: 90%;
+    }
+    #logo img{
+        width:200%;
+        margin: 5px auto;
+    }
+    #tbUsrLogin,#tbPassLogin {
+        width:60%;
+    }
+    #formLogin {
+        position: absolute;
+        bottom: 10%;
+        left:0;
+        width:100%;
+        margin-left:5%;
+    }
+    .homeView h1 {
+        font-size: 1.2em;
+    }
+    .homeView p {
+        margin-top: 8%;
+        font-size: 0.8em;
+    }
+    #footer p{
+        height: auto;
+        font-size:0.8em;
+    }
+    .mainView {
+        background-position: 20% 80%;
+    }
+    #registerForm {
+        width: 100%;
+    }
+    input[type=text] {
+        width:100%;
+    }
+    }
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+}
+@media screen and (min-width:450px) and (max-width:768px) {
+
+}
+
